@@ -1,0 +1,32 @@
+person:
+  name: jasonw${random.int}
+  age: 30
+  happy: false
+  birthday: 2022/12/16
+  maps: {k1: "something", k2: nothing}
+  lists:
+    - "code"
+    - music
+    - cook
+  hello: My name is
+  dog:
+    name: ${person.hello:hello} Lili
+    age: "10"
+#
+#server:
+#  port: 8081
+#spring:
+#  profiles:
+#    active: dev
+#
+#---
+#server:
+#  port: 8082
+#spring:
+#  profiles: dev
+#
+#---
+#server:
+#  port: 8083
+#spring:
+#  profiles: test
